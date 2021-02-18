@@ -1,0 +1,136 @@
+body{
+    font-family: 'Noto Sans HK';
+    margin:auto;
+
+}
+.head{
+    background-image: url("../images/topo.jpg");
+    background-size:cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+}
+.head .navigation #logo{
+    background-image: url("../images/logo.png");
+    background-size: cover;
+    width:140px;
+    height:40px;
+}
+.head .navigation{
+    background-color: rgb(15, 43, 61);
+}
+.head .navigation ul{
+    display: inline-block;
+    position:absolute;
+    right: 10px;
+    top: 0px;
+    margin-top: 8px;
+}
+.head .navigation ul li{
+    float: right;
+    margin-left: 25px;
+    list-style-type:none;
+    border-bottom: solid 1px rgb(221, 209, 209);
+    border-top: solid 1px rgb(221, 209, 209);
+}
+
+.head .navigation ul li a{
+    text-decoration: none;
+    color: rgb(51, 91, 143);
+    text-transform:uppercase;
+    letter-spacing: 0.5px;
+}
+.head .navigation ul li a:hover{
+    color: rgb(76, 136, 214);
+}
+
+.head .navigation ul li a:active{
+    color: rgb(49, 87, 138);
+}
+
+.principal .secao1 .header2{
+    text-align: center;
+    line-height: 30px;
+}
+
+.principal .secao1 .principal2{
+    text-align: center;
+}
+.principal .secao1 .principal2 .container{
+    display: inline-block;
+    margin-left: 10px;
+}
+.principal .secao1 .principal2 .container h2{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.principal .secao1 .principal2 .container p{
+    font-size: 15px;
+    margin-top: -15px;
+    margin-bottom: 0px;
+}
+.principal .artigo{
+    height: 450px;
+    background-image: url('../images/bg_detalhe.png');
+    background-size:cover;
+    background-position: center;
+    box-sizing: border-box;
+    padding: 50px;
+    color: white;
+}
+.principal .artigo h1{
+    text-transform: uppercase;
+}
+.principal .secao2{
+    height: 80px;
+    text-align:center;
+}
+.principal .secao2 p{
+    margin-bottom: -20px;
+    text-transform: uppercase;
+    color: rgb(5, 46, 100);
+}
+.principal .secao2 #buttons{
+    display: inline-block;
+    margin-top: 20px;
+}
+.principal .secao2 #buttons button{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    border: 0px;
+}
+
+.principal .secao2 #buttons #whatsapp{
+    background-image: url('../images/whatsapp.png');
+    background-size:cover;
+}
+
+.principal .secao2 #buttons #facebook{
+    background-image: url('../images/facebook.jpg');
+    background-size:cover;
+}
+
+.principal .secao2 #buttons #instagram{
+    background-image: url('../images/instagram.jpg');
+    background-size:cover;
+    background-position: center;
+}
+
+.principal #iframe{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.rodape{
+
+    height: 75px;
+    background-color: black;
+}
+.rodape p{
+    color: white;
+    text-align:center;
+    letter-spacing: 2px;
+    padding-top: 25px;
+    text-transform: uppercase;
+}
+
