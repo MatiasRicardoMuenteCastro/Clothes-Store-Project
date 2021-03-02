@@ -1,7 +1,6 @@
 body{
     font-family: 'Noto Sans HK';
     margin:auto;
-
 }
 .head{
     background-image: url("../images/topo.jpg");
@@ -15,9 +14,6 @@ body{
     background-size: cover;
     width:140px;
     height:40px;
-}
-.head .navigation{
-    background-color: rgb(15, 43, 61);
 }
 .head .navigation ul{
     display: inline-block;
@@ -67,7 +63,6 @@ body{
 .principal .secao1 .principal2 .container p{
     font-size: 15px;
     margin-top: -15px;
-    margin-bottom: 0px;
 }
 .principal .artigo{
     height: 450px;
