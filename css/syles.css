@@ -38,7 +38,7 @@ body{
     text-decoration: none;
     color: rgb(51, 91, 143);
     text-transform:uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 2px;
 }
 .head .navigation ul li a:hover{
     color: rgb(76, 136, 214);
