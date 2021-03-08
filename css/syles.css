@@ -26,8 +26,6 @@ body{
     float: right;
     margin-left: 25px;
     list-style-type:none;
-    border-bottom: solid 1px rgb(221, 209, 209);
-    border-top: solid 1px rgb(221, 209, 209);
 }
 
 .head .navigation ul li a{
@@ -35,6 +33,7 @@ body{
     color: rgb(51, 91, 143);
     text-transform:uppercase;
     letter-spacing: 2px;
+    transition: color 0.3s linear;
 }
 .head .navigation ul li a:hover{
     color: rgb(76, 136, 214);
